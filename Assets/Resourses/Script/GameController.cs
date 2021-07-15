@@ -28,7 +28,7 @@ namespace Script
             fruts.NewFrute();
             score.ReloadScore();
 
-            // text.gameObject.SetActive(false);
+            
 
             if (isfail)
             {
@@ -38,12 +38,10 @@ namespace Script
             {
                 win.gameObject.SetActive(true);
                 Time.timeScale = 0;
-
-                //    SceneManager.LoadScene("SampleScene");
+               
             }
 
-            //text.gameObject.SetActive(true);
-         
+           
             is_text_active = true;
              timer = 0;
 
